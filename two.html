@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 255px;
+  width: 255px;
+  background-color: red; 
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+#grad2{
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+#grad3{
+  height: 300px;
+  width: 300px;
+  background-color: red; 
+  background-image: conic-gradient(red, yellow, green, blue, black);
+  border-radius: 50%;
+}
+</style>
+</head>
+<body>
+
+<div id="grad1" style="text-align:center;margin:auto;color:lightcoral;font-size:40px;font-weight:bold">
+Rainbow Background
+</div>
+
+<h1>Repeating Radial Gradient</h1>
+
+<div id="grad2"></div>
+<h1>conic  Gradient pie chart</h1>
+
+<div id="grad3"></div>
+</body>
+</html>
